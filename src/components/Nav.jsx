@@ -14,8 +14,8 @@ function Nav() {
       <Link to={"/checkout"}>
         <div className="cart">
           <AiFillShopping />
+          <span>0</span>
         </div>
-        <span>0</span>
       </Link>
     </nav>
   );

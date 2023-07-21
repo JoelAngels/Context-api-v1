@@ -11,10 +11,10 @@ function Card({ name, price }) {
         <IoShirtOutline />
       </div>
       <div className="purchase">
-        <h3>{name}</h3>
-        <AiFillShopping />
+        <h3 className="name">{name}</h3>
+        <AiFillShopping style={{ marginLeft: "100px" }} />
       </div>
-      <h4>${price}</h4>
+      <h4 className="price">${price}</h4>
     </div>
   );
 }
